@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crefaz | Condições Especiais de Renovação</title>
+    <title>Crefaz | Campanha Clientes</title>
+    <link href="https://site.crefaz.com.br/public/site/images/favicon.png" rel="shortcut icon" />
+    <!-- Tailwind CSS Engine -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Premium -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome para carregar os ícones das redes sociais como na imagem image_98a148.png -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
     <style>
         body { font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; }
         .bg-crefaz-dark { background-color: #163056; }
         .bg-crefaz-green { background-color: #00BA53; }
         .bg-crefaz-orange { background-color: #EF6B22; }
         
-        /* Ajustado para cobrir perfeitamente de forma vertical sem cortar a imagem */
         .hero-gradient {
             background: linear-gradient(rgba(22, 48, 86, 0.50), rgba(22, 48, 86, 0.35)), 
                         url('https://site.crefaz.com.br/public/_upload/banners/6c09bc30f819b13b9786605b4c77e0c4.png');
@@ -21,7 +26,6 @@
             background-repeat: no-repeat;
         }
 
-        /* Garante estabilidade na renderização do script dinâmico */
         .bitrix-holder iframe {
             width: 100% !important;
             min-width: 100% !important;
@@ -31,10 +35,12 @@
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col">
 
+    <!-- Faixa de Segurança Obrigatória -->
     <div class="bg-crefaz-orange py-2 text-center text-white text-[10px] md:text-xs font-bold tracking-widest uppercase px-4">
         ⚠️ ATENÇÃO: A CREFAZ NÃO COBRA VALORES ANTECIPADOS PARA LIBERAÇÃO DE CRÉDITO.
     </div>
 
+    <!-- Cabeçalho Institucional -->
     <header class="bg-crefaz-dark py-4 shadow-lg sticky top-0 z-50 border-b-4 border-crefaz-green">
         <div class="container mx-auto px-6 flex justify-between items-center">
             <img src="https://image.parceiros.crefaz.com.br/lib/fe3711737164057b751772/m/1/d75e80a7-8dad-40b1-b67f-64e1d6724ca0.png" class="w-32 md:w-44" alt="Crefaz">
@@ -42,11 +48,12 @@
         </div>
     </header>
 
-    <section class="hero-gradient py-32 md:py-72 text-center text-white">
-        <div class="container mx-auto px-6 max-w-3xl space-y-4">
-            </div>
+    <!-- Seção Principal -->
+    <section class="hero-gradient py-20 md:py-72 text-center text-white">
+        <div class="container mx-auto px-6 max-w-3xl space-y-4"></div>
     </section>
 
+    <!-- Área de Conversão -->
     <section class="container mx-auto px-4 -mt-10 md:-mt-20 mb-16 max-w-2xl relative z-10 flex-1">
         <div class="bg-white p-4 md:p-8 rounded-[2rem] shadow-2xl relative">
             <div class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-crefaz-green to-yellow-400 rounded-t-[2rem]"></div>
@@ -68,6 +75,7 @@
         </div>
     </section>
 
+    <!-- Seção de Dúvidas Frequentes -->
     <section class="py-16 bg-white border-t border-gray-100">
         <div class="container mx-auto px-6 max-w-5xl text-center">
             <h2 class="text-2xl md:text-3xl font-black text-[#163056] mb-12 italic uppercase tracking-tighter">
@@ -95,4 +103,103 @@
         </div>
     </section>
 
-    <footer
+    <!-- NOVO RODAPÉ HOMOLOGADO (Convertido para Tailwind CSS com base na imagem image_98a148.png) -->
+    <footer class="bg-[#163056] text-white text-xs py-12 border-t border-white/10 mt-auto">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 text-left">
+                
+                <!-- Coluna 1: Logo e Endereço -->
+                <div class="lg:col-span-3 space-y-4">
+                    <img src="https://site.crefaz.com.br/public/site/images/crefaz-cc.png" class="max-w-[180px] h-auto" alt="Crefaz - Crédito Consciente">
+                    <p class="text-gray-300 leading-relaxed text-[11px] pt-2">
+                        Crédito Consciente <br>
+                        Avenida Duque de Caxias, 882,<br>
+                        Sala 503 - Maringá, PR<br>
+                        CEP: 87020-025 <br>
+                        CNPJ: 18.188.384.0001-83
+                    </p>
+                    <div class="space-y-3 pt-2">
+                        <img src="https://site.crefaz.com.br/public/site/images/banco-central.png" class="w-28 h-auto" alt="Banco Central">
+                        <img src="https://site.crefaz.com.br/public/site/images/site-seguro.png" class="w-28 h-auto pt-2" alt="Site Seguro">
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Central de Atendimento -->
+                <div class="lg:col-span-3 space-y-4">
+                    <h5 class="text-sm font-bold uppercase tracking-wider text-white">Central de Atendimento</h5>
+                    <div class="space-y-3">
+                        <div>
+                            <small class="block text-[10px] uppercase font-bold text-gray-400 tracking-wider">SAC</small>
+                            <a href="tel:08000525051" class="inline-block mt-1 bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold py-2 px-4 rounded-lg text-center w-full transition-all">0800 052 5051</a>
+                        </div>
+                        <div>
+                            <small class="block text-[10px] uppercase font-bold text-gray-400 tracking-wider">Ouvidoria</small>
+                            <a href="tel:08005900127" class="inline-block mt-1 bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold py-2 px-4 rounded-lg text-center w-full transition-all">0800 590 0127</a>
+                            <a href="mailto:ouvidoria@crefaz.com.br" class="block text-[11px] text-gray-300 hover:text-white underline mt-1 break-all">ouvidoria@crefaz.com.br</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coluna 3: Menu de Links -->
+                <div class="lg:col-span-3 space-y-4">
+                    <h5 class="text-sm font-bold uppercase tracking-wider text-white">Menu</h5>
+                    <nav class="flex flex-col space-y-2 text-[11px] text-gray-300">
+                        <a href="https://crefaz.empregare.com/pt-br/home" target="_blank" class="hover:text-white transition">Carreiras</a>
+                        <a href="https://site.crefaz.com.br/contato" class="hover:text-white transition">Contato</a>
+                        <a href="https://site.crefaz.com.br/politica-de-privacidade" class="hover:text-white transition">Política de Privacidade</a>
+                        <a href="https://site.crefaz.com.br/politica-de-privacidade-aplicativo" class="hover:text-white transition">Política de Privacidade do Aplicativo</a>
+                        <a href="https://site.crefaz.com.br/seguranca-cibernetica" class="hover:text-white transition">Política de Segurança Cibernética</a>
+                        <a href="https://site.crefaz.com.br/canal-aberto" class="hover:text-white transition">Canal Aberto</a>
+                        <a href="https://site.crefaz.com.br/public/DF2024.pdf" target="_blank" class="hover:text-white transition">Demonstração Financeira 2024</a>
+                        <a href="https://site.crefaz.com.br/public/DF2025.pdf" target="_blank" class="hover:text-white transition">Demonstração Financeira 2025</a>
+                        <a href="https://site.crefaz.com.br/public/quadro-tarifa.pdf" target="_blank" class="hover:text-white transition">Quadro de Tarifas</a>
+                    </nav>
+                </div>
+
+                <!-- Coluna 4: Aplicativos e Redes Sociais -->
+                <div class="lg:col-span-3 space-y-5">
+                    <div>
+                        <h5 class="text-sm font-bold uppercase tracking-wider text-white mb-3">Baixe nossos aplicativos</h5>
+                        <div class="flex flex-col space-y-2">
+                            <a href="https://play.google.com/store/apps/details?id=br.com.rbmweb.crefaz" target="_blank" class="transition hover:opacity-80">
+                                <img src="https://site.crefaz.com.br/public/site/images/google-play-min.png" class="w-36 h-auto" alt="Crefaz - Google Play">
+                            </a>
+                            <a href="https://apps.apple.com/br/app/crefaz-on/id1453436337" target="_blank" class="transition hover:opacity-80">
+                                <img src="https://site.crefaz.com.br/public/site/images/play-store-min.png" class="w-36 h-auto" alt="Crefaz - Apple Store">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h5 class="text-sm font-bold uppercase tracking-wider text-white mb-3">Redes Sociais:</h5>
+                        <ul class="space-y-2 text-[11px] text-gray-300">
+                            <li>
+                                <a href="https://www.facebook.com/crefazoficial/" class="hover:text-white flex items-center gap-2 transition" target="_blank">
+                                    <i class="fab fa-facebook fa-lg text-white"></i> Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/crefazoficial/" class="hover:text-white flex items-center gap-2 transition" target="_blank">
+                                    <i class="fab fa-instagram fa-lg text-white"></i> Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/crefazoficial/" class="hover:text-white flex items-center gap-2 transition" target="_blank">
+                                    <i class="fab fa-linkedin fa-lg text-white"></i> Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Direitos Autorais Centralizados -->
+            <div class="border-t border-white/10 mt-8 pt-4 text-center text-[10px] text-gray-400 tracking-wider">
+                <p>CREFAZ | TODOS OS DIREITOS RESERVADOS</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
