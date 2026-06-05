@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crefaz | Condições Especiais de Renovação</title>
+    <!-- Tailwind CSS Engine -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Premium -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; }
+        .bg-crefaz-dark { background-color: #163056; }
+        .bg-crefaz-green { background-color: #00BA53; }
+        .bg-crefaz-orange { background-color: #EF6B22; }
+        
+        /* Fundo estratégico combinando o banner oficial e o degradê institucional */
+        .hero-gradient {
+            background: linear-gradient(rgba(22, 48, 86, 0.96), rgba(22, 48, 86, 0.85)), 
+                        url('https://site.crefaz.com.br/public/_upload/banners/6c09bc30f819b13b9786605b4c77e0c4.png');
+            background-size: cover; 
+            background-position: center;
+        }
+
+        /* Suavização de renderização do formulário Bitrix */
+        .bitrix-holder iframe {
+            border-radius: 1.5rem !important;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex flex-direction column min-h-screen">
+
+    <!-- Faixa de Segurança Obrigatória (Compliance Crefaz) -->
+    <div class="bg-crefaz-orange py-2 text-center text-white text-[10px] md:text-xs font-bold tracking-widest uppercase px-4">
+        ⚠️ ATENÇÃO: A CREFAZ NÃO COBRA VALORES ANTECIPADOS PARA LIBERAÇÃO DE CRÉDITO.
+    </div>
+
+    <!-- Cabeçalho Institucional -->
+    <header class="bg-crefaz-dark py-4 shadow-lg sticky top-0 z-50 border-b-4 border-crefaz-green">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <img src="https://image.parceiros.crefaz.com.br/lib/fe3711737164057b751772/m/1/d75e80a7-8dad-40b1-b67f-64e1d6724ca0.png" class="w-32 md:w-44" alt="Crefaz">
+            <span class="text-white/60 text-[10px] hidden md:block uppercase tracking-widest font-semibold">Espaço do Cliente Antigo</span>
+        </div>
+    </header>
+
+    <!-- Seção Principal (Hero Grid de Alta Conversão) -->
+    <section class="hero-gradient py-12 md:py-20 flex-1 flex items-center">
+        <div class="container mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
+
+            <!-- Lado Esquerdo: Texto de Impacto Baseado no Histórico do SMS -->
+            <div class="lg:col-span-6 text-white space-y-6">
+                <span class="inline-block bg-crefaz-green text-white font-extrabold text-[11px] px-4 py-1.5 rounded-full uppercase tracking-widest shadow-sm">
+                    Oportunidade Exclusiva
+                </span>
+                <h1 class="text-3xl md:text-5xl font-black tracking-tight leading-tight uppercase italic text-balance">
+                    Sua parceria com a Crefaz <br><span class="text-yellow-400">Vale um novo crédito!</span>
+                </h1>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed max-w-xl">
+                    Identificamos no nosso sistema que você concluiu o pagamento do seu contrato recentemente. Por conta do seu excelente histórico, preparamos condições diferenciadas e liberação facilitada.
+                </p>
+
+                <!-- Grid de Benefícios Rápidos e Ilustrativos -->
+                <div class="grid grid-cols-3 gap-4 pt-4 max-w-md">
+                    <div class="bg-white/10 backdrop-blur-sm p-4 rounded-2xl border border-white/10 text-center">
+                        <span class="text-2xl block mb-1">⚡</span>
+                        <span class="text-[11px] font-bold block uppercase tracking-tight text-white">Sem Burocracia</span>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm p-4 rounded-2xl border border-white/10 text-center">
+                        <span class="text-2xl block mb-1">💡</span>
+                        <span class="text-[11px] font-bold block uppercase tracking-tight text-white">Na Conta de Luz</span>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm p-4 rounded-2xl border border-white/10 text-center">
+                        <span class="text-2xl block mb-1">📅</span>
+                        <span class="text-[11px] font-bold block uppercase tracking-tight text-white">Até 36 Meses</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lado Direito: Janela com o seu Script Real do Bitrix24 -->
+            <div class="lg:col-span-6 w-full max-w-xl mx-auto">
+                <div class="bg-white p-6 md:p-8 rounded-[2.5rem] shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-crefaz-green to-yellow-400"></div>
+                    
+                    <div class="text-center mb-6">
+                        <h3 class="text-xl font-bold text-[#163056]">Simule Gratuitamente</h3>
+                        <p class="text-xs text-gray-400 mt-1">Preencha o formulário oficial abaixo para análise imediata</p>
+                    </div>
+
+                    <!-- Div de Renderização Blindada do Bitrix24 -->
+                    <div class="bitrix-holder min-h-[480px] bg-gray-50 rounded-2xl p-2 border border-gray-100">
+                        <!-- SCRIPT INLINE SOLICITADO DO SEU BITRIX -->
+                        <script data-b24-form="inline/710/73gkxt" data-skip-moving="true">
+                            (function(w,d,u){
+                            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+                            })(window,document,'https://cdn.bitrix24.com.br/b13998917/crm/form/loader_710.js');
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seção de Dúvidas Frequentes (FAQ Estruturado) -->
+    <section class="py-20 bg-white border-t border-gray-100">
+        <div class="container mx-auto px-6 max-w-5xl text-center">
+            <h2 class="text-3xl md:text-4xl font-black text-[#163056] mb-16 italic uppercase tracking-tighter">
+                Ficou com dúvidas? <br><span class="text-crefaz-orange">A gente responde!</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left">
+                <div class="p-8 border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition bg-gray-50">
+                    <h4 class="font-bold text-[#163056] mb-3 italic uppercase text-sm tracking-wide">Como funciona o crédito na conta de luz?</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">As parcelas do seu empréstimo são lançadas diretamente na sua fatura mensal de energia elétrica. É uma forma prática de pagar sem comprometer o limite do seu cartão ou precisar de boletos extras.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition bg-gray-50">
+                    <h4 class="font-bold text-[#163056] mb-3 italic uppercase text-sm tracking-wide">Quem tem direito a essa campanha?</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">Esta condição é exclusiva para o grupo de clientes selecionados que finalizaram e quitaram contratos com a Crefaz entre os anos de 2023 e 2025.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition bg-gray-50">
+                    <h4 class="font-bold text-[#163056] mb-3 italic uppercase text-sm tracking-wide">Preciso comprovar renda de novo?</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">Como você já possui cadastro e histórico positivo conosco, o processo de análise é simplificado, focado principalmente na titularidade da conta de energia.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition bg-gray-50">
+                    <h4 class="font-bold text-[#163056] mb-3 italic uppercase text-sm tracking-wide">Em quanto tempo o dinheiro cai?</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">Após a finalização do preenchimento e aprovação digital dos documentos complementares, o valor é transferido via PIX ou TED direto para sua conta informada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé Corporativo Padrão Base de Maringá -->
+    <footer class="bg-[#163056] py-12 text-center border-t border-white/10 mt-auto">
+        <img src="https://image.parceiros.crefaz.com.br/lib/fe3711737164057b751772/m/1/fcd6cf2e-5774-4367-b423-d43a4040ed38.png" class="w-24 mx-auto mb-6 grayscale opacity-30" alt="Crefaz">
+        <p class="text-white/40 text-[9px] uppercase font-bold tracking-widest leading-loose px-4">
+            CREFAZ SOCIEDADE DE CRÉDITO AO MICROEMPREENDEDOR E A EPP LTDA. | CNPJ: 18.188.384/0001-83 <br>
+            Avenida Duque de Caxias, 882 - 87020-025 - Maringá/PR
+        </p>
+    </footer>
+
+</body>
+</html>
